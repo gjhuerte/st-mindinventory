@@ -12,7 +12,7 @@ class CurrentTask extends Component {
     state = {}
     render() { 
         return (
-            <div className="flex-initial border rounded-lg border-gray-700 px-5 pt-5 pb-1 m-2 w-1/2">
+            <div className="flex-initial border rounded-lg border-gray-700 px-5 pt-5 pb-1 m-2 w-full md:w-1/2">
                 <div className="flex flex-row border-b border-gray-700 pb-5 justify-between items-center text-white">
                     <h3 className="flex-1">
                         Current Task - 2

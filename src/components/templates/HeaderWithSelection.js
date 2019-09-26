@@ -9,7 +9,7 @@ class HeaderWithSelection extends Component {
     state = {  }
     render() { 
         return (
-            <div className="flex flex-row justify-between items-center my-5">
+            <div className="flex flex-col md:flex-row justify-center md:justify-between items-center my-5">
                 <div className="flex-initial flex flex-col">
                     <h1 className="text-white text-5xl font-semibold">
                         Add New Action
@@ -24,7 +24,7 @@ class HeaderWithSelection extends Component {
                     </div>
                 </div>
 
-                <div className="flex-initial flex flex-row items-center justify-center md:pr-10">
+                <div className="flex-initial flex flex-col md:flex-row items-center justify-center md:pr-10 mt-10 md:mt-0">
                     <ul className="flex flex-row font-bold text-xl">
                         <li className="text-blue-500 mx-3">
                             <a href="/">

@@ -15,7 +15,7 @@ class Content extends Component {
                 <Breadcrumb />
                 <HeaderWithSelection />
                 <Suggestions />
-                <div className="flex flex-row">
+                <div className="flex flex-col md:flex-row">
                     <CurrentTask />
                     <Chart />
                 </div>

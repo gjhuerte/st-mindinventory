@@ -18,8 +18,8 @@ class Suggestions extends Component {
                     <h6 className="text-sm font-medium mx-3 my-5">SUGGESTIONS</h6> 
                 </div>
 
-                <div className="flex-initial flex flex-row justify-between items-center">
-                    <div className="flex-1 border-gray-700 max-w-xs border rounded-lg p-5 m-2">
+                <div className="flex-initial flex flex-col md:flex-row justify-center md:items-center p-2">
+                    <div className="w-full md:w-auto flex-1 border-gray-700 md:max-w-xs border rounded-lg p-5 m-2">
                         <div className="text-white">
                             <FontAwesomeIcon className="float-right" icon={faCog} />
                             <div className="clearfix"></div>
@@ -37,7 +37,7 @@ class Suggestions extends Component {
                             <p className="text-gray-700 text-xs text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
                         </div>
                     </div>
-                    <div className="flex-1 border-gray-700 max-w-xs border rounded-lg p-5 m-2">
+                    <div className="w-full md:w-auto flex-1 border-gray-700 md:max-w-xs border rounded-lg p-5 m-2">
                         <div className="text-white">
                             <FontAwesomeIcon className="float-right" icon={faCog} />
                             <div className="clearfix"></div>
@@ -55,7 +55,7 @@ class Suggestions extends Component {
                             <p className="text-gray-700 text-xs text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
                         </div>
                     </div>
-                    <div className="flex-1 border-gray-700 max-w-xs border rounded-lg p-5 m-2">
+                    <div className="w-full md:w-auto flex-1 border-gray-700 md:max-w-xs border rounded-lg p-5 m-2">
                         <div className="text-white">
                             <FontAwesomeIcon className="float-right" icon={faCog} />
                             <div className="clearfix"></div>
@@ -73,7 +73,7 @@ class Suggestions extends Component {
                             <p className="text-gray-700 text-xs text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
                         </div>
                     </div>
-                    <div className="flex-1 border-gray-700 max-w-xs border rounded-lg p-5 m-2">
+                    <div className="w-full md:w-auto flex-1 border-gray-700 md:max-w-xs border rounded-lg p-5 m-2">
                         <div className="text-white">
                             <FontAwesomeIcon className="float-right" icon={faCog} />
                             <div className="clearfix"></div>
@@ -91,7 +91,7 @@ class Suggestions extends Component {
                             <p className="text-gray-700 text-xs text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
                         </div>
                     </div>
-                    <div className="flex-1 border-gray-700 max-w-xs border rounded-lg p-5 m-2">
+                    <div className="w-full md:w-auto flex-1 border-gray-700 md:max-w-xs border rounded-lg p-5 m-2">
                         <div className="text-white">
                             <FontAwesomeIcon className="float-right" icon={faCog} />
                             <div className="clearfix"></div>

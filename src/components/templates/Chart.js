@@ -4,7 +4,7 @@ class Chart extends Component {
     state = {}
     render() { 
         return (
-            <div className="flex-initial border border-gray-700 rounded-lg w-1/2 m-2 h-auto"></div>
+            <div className="flex-initial border border-gray-700 rounded-lg w-full md:w-1/2 m-2 h-auto"></div>
         );
     }
 }
