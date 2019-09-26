@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import Navigation from './components/partials/Navigation';
+import Sidebar from './components/partials/Sidebar';
+import Content from './components/templates/Content';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Profiler
+      id="base"
+      onRender={() => {}}>
+      <div className="flex flex-row">
+        <div className="flex-initial">
+          <Sidebar />
+        </div>
+        <div className="flex-initial flex-col w-full">
+          <Navigation />
+          <Content />
+        </div>
+      </div>
+    </React.Profiler>
   );
 }
 
